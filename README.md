@@ -1,9 +1,7 @@
 <h1 align="center"> Location Analysis for DRT Services in Gyeonggi Province </h1>
 <h3 align="center"> Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model </h3>  
 
-> Department of Industrial Engineering — Big Data Systems Project (June 2026)  
-> Nayeong Park · Junha Won
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
   
 ## 📌 Overview
 
@@ -15,8 +13,7 @@ This project aims to **learn the locational characteristics of existing Ddokbus 
   <img width="312" alt="image" src="https://github.com/user-attachments/assets/bfd98895-b2cc-4944-820b-16c114a18371" />
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 
 ## 🗂️ Repository Structure
@@ -36,7 +33,7 @@ gyeonggi-drt-location-analysis-pyspark/
 └── README.md
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +46,7 @@ gyeonggi-drt-location-analysis-pyspark/
 | Geocoding | Kakao Developers Address-to-Coordinate API |
 | Development Environment | Jupyter Notebook, Google Colab, WSL2 (Ubuntu) |
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 📊 Data
 
@@ -63,7 +60,7 @@ gyeonggi-drt-location-analysis-pyspark/
 | Senior welfare facilities, hospitals, pharmacies, markets, restaurants, bus stops, enterprises, factories | [Gyeonggi Data Dream](https://data.gg.go.kr) |
 | Ddokbus operation status (target variable) | [Gyeonggi Transportation Corporation](https://www.gtrans.or.kr) |
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## ⚙️ Pipeline
 
@@ -85,7 +82,7 @@ XGBoost Binary Classification
 Folium-based Map Visualization
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## ⚠️ Troubleshooting
 
@@ -114,7 +111,7 @@ jps
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/8b42c950-017e-41b9-8a0e-c7eec44ace55" />
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 📈 Results
 
@@ -161,7 +158,7 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/807b9b69-f2ac-4be6-9352-5a6d7ddcc5c6" />
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 🗺️ Visualization
 
@@ -172,14 +169,13 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 > 👉 **[View Interactive Map](https://nayeongpark.github.io/gyeonggi-drt-location-analysis-pyspark/visualization/output-visualization.html)**  
 > *(Hover over each grid cell to see feature values such as elderly population and bus stop count)*
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 📄 Report
 
 The final project report is available in the [`report/`](./report/) folder.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 💡 Key Takeaways
 
