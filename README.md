@@ -15,6 +15,10 @@ Ddokbus is only available within **designated service zones** — not everywhere
 
 This project aims to **learn the locational characteristics of existing Ddokbus service zones and identify candidate areas for new service introduction** using a data-driven approach based on 1km × 1km grid units across Gyeonggi Province.
 
+<p align="center">
+  <img width="312" alt="image" src="https://github.com/user-attachments/assets/bfd98895-b2cc-4944-820b-16c114a18371" />
+</p>
+
 ---
 
 ## 🗂️ Repository Structure
@@ -59,7 +63,7 @@ Public datasets were mapped to each grid cell by latitude/longitude to construct
 | 1km × 1km Grid (SHP), Elderly population (aged 65+) | [National Geographic Information Institute](https://map.ngii.go.kr) |
 | Community service centers | [Public Data Portal](https://www.data.go.kr) |
 | Senior welfare facilities, hospitals, pharmacies, markets, restaurants, bus stops, enterprises, factories | [Gyeonggi Data Dream](https://data.gg.go.kr) |
-| Ddokbus operation status (target variable) | Gyeonggi Transportation Corporation |
+| Ddokbus operation status (target variable) | [Gyeonggi Transportation Corporation](https://www.gtrans.or.kr) |
 
 ---
 
@@ -105,6 +109,11 @@ jps
 ```
 
 - **OOM (Out of Memory) error** — Occurred when processing a 14MB restaurant CSV. Spark consumes 2–3GB of memory by default regardless of data size, which exceeded the capacity of the local environment (8GB RAM, 4-core CPU running in pseudo-distributed mode). Resolved by migrating the preprocessing step to Google Colab
+
+<p align="center">
+<img width="559" height="178" alt="image" src="https://github.com/user-attachments/assets/8b42c950-017e-41b9-8a0e-c7eec44ace55" />
+</p>
+
 
 ---
 
