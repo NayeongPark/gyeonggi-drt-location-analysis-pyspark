@@ -111,7 +111,7 @@ jps
 - **OOM (Out of Memory) error** — Occurred when processing a 14MB restaurant CSV. Spark consumes 2–3GB of memory by default regardless of data size, which exceeded the capacity of the local environment (8GB RAM, 4-core CPU running in pseudo-distributed mode). Resolved by migrating the preprocessing step to Google Colab
 
 <p align="center">
-<img width="559" height="178" alt="image" src="https://github.com/user-attachments/assets/8b42c950-017e-41b9-8a0e-c7eec44ace55" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8b42c950-017e-41b9-8a0e-c7eec44ace55" />
 </p>
 
 
@@ -150,11 +150,6 @@ The results show that Ddokbus placement is driven not only by population size, b
 | 3 | 다사7928 | 0.8600 | 0 | 0 | 0 | 0 | 20 | 3 |
 | 4 | 다사6582 | 0.8545 | 0 | 0 | 13 | 3 | 13 | 3 |
 | 5 | 다바7987 | 0.8444 | 0 | 3 | 33 | 4 | 205 | 3 |
-| 6 | 다사5991 | 0.8108 | 0 | 0 | 1 | 2 | 5 | 4 |
-| 7 | 다사3027 | 0.7778 | 20 | 0 | 3 | 13 | 639 | 475 |
-| 8 | 다사6945 | 0.7631 | 7299 | 9 | 100 | 2 | 0 | 0 |
-| 9 | 다사6296 | 0.7610 | 0 | 0 | 2 | 3 | 18 | 2 |
-| 10 | 다바7988 | 0.7499 | 0 | 1 | 18 | 2 | 147 | 0 |
 
 ### Final Candidate Zones
 
@@ -162,6 +157,11 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 
 - **Fig. 1** — A zone with a large elderly population and dense daily-life facilities (hospitals, restaurants). High potential for short-distance mobility demand among older residents.
 - **Fig. 2** — A zone where factories and small businesses are scattered around hilly terrain. Geographic constraints make conventional fixed-route transit difficult, making DRT a strong fit.
+
+<p align="center">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/807b9b69-f2ac-4be6-9352-5a6d7ddcc5c6" />
+</p>
+
 
 ---
 
