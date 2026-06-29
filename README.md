@@ -6,7 +6,7 @@
 > Nayeong Park · Junho Won
 
 ---
-
+  
 ## 📌 Overview
 
 **Ddokbus (똑버스)** is a Demand Responsive Transit (DRT) service introduced by Gyeonggi Province to guarantee mobility rights in areas underserved by conventional public transportation. Unlike fixed-route buses, it operates flexibly based on demand and can be called through the **'Ddokta' app**.
@@ -87,22 +87,23 @@ Folium-based Map Visualization
 
 - **Datanode abnormal termination** — Resolved by modifying the `.Go` initial startup script to fix cluster ID mismatch
 ```.Go
-# 1. Stop all services
+# Stop all services
 stop-all.sh
 
-# 2. Remove temporary files only
+# Remove temporary files only
 rm -rf /tmp/hadoop-ubuntu
 
-# 3. Match datanode VERSION to namenode clusterID
+# Match datanode VERSION to namenode clusterID
 sudo sed -i 's/clusterID=.*/clusterID=CID-d705fcba-73f9-4a95-b6fa-a72d1292288f/' /data/HDFS/datanode/current/VERSION
 
-# 4. Restart
+# Restart
 start-all.sh
 hadoop dfsadmin -safemode leave
 
-# 5. Verify
+# Verify
 jps
 ```
+
 - **OOM (Out of Memory) error** — Occurred when processing a 14MB restaurant CSV. Spark consumes 2–3GB of memory by default regardless of data size, which exceeded the capacity of the local environment (8GB RAM, 4-core CPU running in pseudo-distributed mode). Resolved by migrating the preprocessing step to Google Colab
 
 ---
