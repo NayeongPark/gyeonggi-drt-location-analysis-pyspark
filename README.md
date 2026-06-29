@@ -1,7 +1,6 @@
-# Location Analysis for DRT (Ddokbus) Services in Gyeonggi Province
+<h1 align="center"> Location Analysis for DRT (Ddokbus) Services in Gyeonggi Province </h1>
+<h3 align="center"> Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model </h3>  
 
-> **Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model**
->
 > Department of Industrial Engineering — Big Data Systems Project (June 2026)  
 > Nayeong Park · Junha Won
 
