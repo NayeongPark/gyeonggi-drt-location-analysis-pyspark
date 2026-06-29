@@ -87,23 +87,23 @@ Folium-based Map Visualization
 ## ⚠️ Troubleshooting
 
 - **Datanode abnormal termination** — Resolved by modifying the `.Go` initial startup script to fix cluster ID mismatch
-```.Go
-# Stop all services
-stop-all.sh
+  ```.Go
+  # Stop all services
+  stop-all.sh
+  
+  # Remove temporary files only
+  rm -rf /tmp/hadoop-ubuntu
+  
+  # Match datanode VERSION to namenode clusterID
+  sudo sed -i 's/clusterID=.*/clusterID=CID-d705fcba-73f9-4a95-b6fa-a72d1292288f/' /data/HDFS/datanode/current/VERSION
+  
+  # Restart
+  start-all.sh
+  hadoop dfsadmin -safemode leave
 
-# Remove temporary files only
-rm -rf /tmp/hadoop-ubuntu
-
-# Match datanode VERSION to namenode clusterID
-sudo sed -i 's/clusterID=.*/clusterID=CID-d705fcba-73f9-4a95-b6fa-a72d1292288f/' /data/HDFS/datanode/current/VERSION
-
-# Restart
-start-all.sh
-hadoop dfsadmin -safemode leave
-
-# Verify
-jps
-```
+  # Verify
+  jps
+  ```
 
 - **OOM (Out of Memory) error** — Occurred when processing a 14MB restaurant CSV. Spark consumes 2–3GB of memory by default regardless of data size, which exceeded the capacity of the local environment (8GB RAM, 4-core CPU running in pseudo-distributed mode). Resolved by migrating the preprocessing step to Google Colab
 
