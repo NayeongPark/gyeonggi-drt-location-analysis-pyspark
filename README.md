@@ -6,7 +6,9 @@
 ## 📌 Overview
 
 **Ddokbus (똑버스)** is a Demand Responsive Transit (DRT) service introduced by Gyeonggi Province to guarantee mobility rights in areas underserved by conventional public transportation. Unlike fixed-route buses, it operates flexibly based on demand and can be called through the **'Ddokta' app**. 
+
 Ddokbus is only available within **designated service zones** — not everywhere in the province. However, no clear data-driven criteria exist for determining which areas should be designated as service zones. With the population aged 65 and over in Gyeonggi Province reaching 18.2% as of April 2026 — approaching the super-aged society threshold of 20% — the need for flexible, accessible transit for mobility-vulnerable residents is growing.
+
 This project aims to **learn the locational characteristics of existing Ddokbus service zones and identify candidate areas for new service introduction** using a data-driven approach based on 1km × 1km grid units across Gyeonggi Province.
 
 <p align="center">
@@ -50,8 +52,8 @@ gyeonggi-drt-location-analysis-pyspark/
 
 ## 📊 Data
 
-> The unit of analysis is the **1km × 1km grid cell across Gyeonggi Province (10,847 cells total)**.  
-> Public datasets were mapped to each grid cell by latitude/longitude to construct the feature set.
+The unit of analysis is the **1km × 1km grid cell across Gyeonggi Province (10,847 cells total)**.  
+Public datasets were mapped to each grid cell by latitude/longitude to construct the feature set.
 
 | Feature | Source |
 |---------|--------|
@@ -137,7 +139,7 @@ Folium-based Map Visualization
 
 The results show that Ddokbus placement is driven not only by population size, but by a **combination of elderly mobility demand and industrial/daily-life facility-based travel demand**.
 
-### Top 10 Candidate Zones (by predict_proba)
+### Top 5 Candidate Zones (by predict_proba)
 
 | Rank | GRID_CD | Pred. Prob. | Elderly Pop. | Senior Centers | Restaurants | Bus Stops | Enterprises | Factories |
 |------|---------|-------------|-------------|----------------|-------------|-----------|-------------|-----------|
