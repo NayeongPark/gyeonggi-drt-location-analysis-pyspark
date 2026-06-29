@@ -87,7 +87,7 @@ XGBoost Binary Classification
 Folium-based Map Visualization
 ```
 
-### ⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 
 - **Datanode abnormal termination** — Resolved by modifying the `.Go` initial startup script to fix cluster ID mismatch
 ```.Go
