@@ -2,7 +2,7 @@
 <h3 align="center"> Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model </h3>  
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
-  
+
 ## 📌 Overview
 
 **Ddokbus (똑버스)** is a Demand Responsive Transit (DRT) service introduced by Gyeonggi Province to guarantee mobility rights in areas underserved by conventional public transportation. Unlike fixed-route buses, it operates flexibly based on demand and can be called through the **'Ddokta' app**. 
