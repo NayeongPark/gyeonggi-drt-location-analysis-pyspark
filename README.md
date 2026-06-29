@@ -3,7 +3,7 @@
 **Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model**
 
 > Department of Industrial Engineering — Big Data Systems Project (June 2026)  
-> Nayeong Park · Junho Won
+> Nayeong Park · Junha Won
 
 ---
   
