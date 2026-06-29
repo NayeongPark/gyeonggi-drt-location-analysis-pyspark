@@ -1,4 +1,4 @@
-<h1 align="center"> Location Analysis for DRT (Ddokbus) Services in Gyeonggi Province </h1>
+<h1 align="center"> Location Analysis for DRT Services in Gyeonggi Province </h1>
 <h3 align="center"> Deriving New Service Zones Using a PySpark-Based Machine Learning Classification Model </h3>  
 
 > Department of Industrial Engineering — Big Data Systems Project (June 2026)  
@@ -7,15 +7,16 @@
   
 ## 📌 Overview
 
->  **Ddokbus (똑버스)** is a Demand Responsive Transit (DRT) service introduced by Gyeonggi Province to guarantee mobility rights in areas underserved by conventional public transportation. Unlike fixed-route buses, it operates flexibly based on demand and can be called through the **'Ddokta' app**.
-> 
->  Ddokbus is only available within **designated service zones** — not everywhere in the province. However, no clear data-driven criteria exist for determining which areas should be designated as service zones. With the population aged 65 and over in Gyeonggi Province reaching 18.2% as of April 2026 — approaching the super-aged society threshold of 20% — the need for flexible, accessible transit for mobility-vulnerable residents is growing.
->
-> This project aims to **learn the locational characteristics of existing Ddokbus service zones and identify candidate areas for new service introduction** using a data-driven approach based on 1km × 1km grid units across Gyeonggi Province.
+**Ddokbus (똑버스)** is a Demand Responsive Transit (DRT) service introduced by Gyeonggi Province to guarantee mobility rights in areas underserved by conventional public transportation. Unlike fixed-route buses, it operates flexibly based on demand and can be called through the **'Ddokta' app**. 
+Ddokbus is only available within **designated service zones** — not everywhere in the province. However, no clear data-driven criteria exist for determining which areas should be designated as service zones. With the population aged 65 and over in Gyeonggi Province reaching 18.2% as of April 2026 — approaching the super-aged society threshold of 20% — the need for flexible, accessible transit for mobility-vulnerable residents is growing.
+This project aims to **learn the locational characteristics of existing Ddokbus service zones and identify candidate areas for new service introduction** using a data-driven approach based on 1km × 1km grid units across Gyeonggi Province.
 
 <p align="center">
   <img width="312" alt="image" src="https://github.com/user-attachments/assets/bfd98895-b2cc-4944-820b-16c114a18371" />
 </p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 
 ## 🗂️ Repository Structure
@@ -35,6 +36,7 @@ gyeonggi-drt-location-analysis-pyspark/
 └── README.md
 ```
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🛠️ Tech Stack
 
@@ -47,6 +49,7 @@ gyeonggi-drt-location-analysis-pyspark/
 | Geocoding | Kakao Developers Address-to-Coordinate API |
 | Development Environment | Jupyter Notebook, Google Colab, WSL2 (Ubuntu) |
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 📊 Data
 
@@ -60,7 +63,7 @@ gyeonggi-drt-location-analysis-pyspark/
 | Senior welfare facilities, hospitals, pharmacies, markets, restaurants, bus stops, enterprises, factories | [Gyeonggi Data Dream](https://data.gg.go.kr) |
 | Ddokbus operation status (target variable) | [Gyeonggi Transportation Corporation](https://www.gtrans.or.kr) |
 
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## ⚙️ Pipeline
 
@@ -81,6 +84,8 @@ XGBoost Binary Classification
         ↓
 Folium-based Map Visualization
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## ⚠️ Troubleshooting
 
@@ -109,6 +114,7 @@ jps
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/8b42c950-017e-41b9-8a0e-c7eec44ace55" />
 </p>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 📈 Results
 
@@ -155,7 +161,7 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/807b9b69-f2ac-4be6-9352-5a6d7ddcc5c6" />
 </p>
 
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🗺️ Visualization
 
@@ -166,12 +172,14 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 > 👉 **[View Interactive Map](https://nayeongpark.github.io/gyeonggi-drt-location-analysis-pyspark/visualization/output-visualization.html)**  
 > *(Hover over each grid cell to see feature values such as elderly population and bus stop count)*
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 ## 📄 Report
 
 The final project report is available in the [`report/`](./report/) folder.
 
----
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 💡 Key Takeaways
 
