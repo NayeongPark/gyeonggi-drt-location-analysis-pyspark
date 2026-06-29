@@ -162,12 +162,12 @@ Since a real service zone cannot be determined by a single grid cell alone, cand
 
 ## 🗺️ Visualization
 
-> XGBoost prediction results are visualized on an interactive map of Gyeonggi Province.  
-> - 🔵 Blue: Existing Ddokbus service zones  
-> - 🔴 Red (intensity): Predicted probability for new candidate zones (darker = higher probability)
->
-> 👉 **[View Interactive Map](https://nayeongpark.github.io/gyeonggi-drt-location-analysis-pyspark/visualization/output-visualization.html)**  
-> *(Hover over each grid cell to see feature values such as elderly population and bus stop count)*
+XGBoost prediction results are visualized on an interactive map of Gyeonggi Province.  
+ - 🔵 Blue: Existing Ddokbus service zones
+ - 🔴 Red (intensity): Predicted probability for new candidate zones (darker = higher probability)
+
+👉 **[View Interactive Map](https://nayeongpark.github.io/gyeonggi-drt-location-analysis-pyspark/visualization/output-visualization.html)**
+*(Hover over each grid cell to see feature values such as elderly population and bus stop count)*
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
