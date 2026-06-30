@@ -64,8 +64,7 @@ gyeonggi-drt-location-analysis-pyspark/
 
 ## 📊 Data
 
-The unit of analysis is the **1km × 1km grid cell across Gyeonggi Province (10,847 cells total)**.  
-Public datasets were mapped to each grid cell by latitude/longitude to construct the feature set.
+The unit of analysis is the **1km × 1km grid cell across Gyeonggi Province (10,847 cells total)**. Public datasets were mapped to each grid cell by latitude/longitude to construct the feature set.
 
 | Feature | Source |
 |---------|--------|
@@ -129,8 +128,8 @@ Folium-based Map Visualization
 
 ## 📈 Results
 ❗ **Note on scope**
-> This project prioritized building and understanding a full 
-> distributed data pipeline (Hadoop + PySpark) over maximizing model performance. 
+> This project prioritized **building and understanding a full 
+> distributed data pipeline (Hadoop + PySpark)** over maximizing model performance. 
 > The classification model serves as a proof-of-concept for the pipeline, not a 
 > production-ready predictor.
 
