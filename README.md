@@ -48,6 +48,18 @@ gyeonggi-drt-location-analysis-pyspark/
 | Geocoding | Kakao Developers Address-to-Coordinate API |
 | Development Environment | Jupyter Notebook, Google Colab, WSL2 (Ubuntu) |
 
+❓ **Why PySpark & Hadoop**  
+> The dataset itself (10,847 grid cells) could have been preprocessed with pandas alone. 
+> However, this project was designed as a deliberate opportunity to learn the **architecture 
+> of large-scale data processing** — building a pseudo-distributed Hadoop cluster and 
+> processing data through PySpark. Starting with a small dataset allowed me to 
+> focus on understanding the infrastructure itself, given the constraints of a local 
+> environment and my own experience level at the time, before working with truly large-scale data.
+>
+> This approach proved its value sooner than expected — the OOM error encountered during 
+> preprocessing (see Troubleshooting) gave direct, hands-on insight into how infrastructure 
+> constraints shape pipeline design decisions in practice.
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 📊 Data
