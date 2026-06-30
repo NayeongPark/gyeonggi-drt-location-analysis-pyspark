@@ -128,6 +128,11 @@ Folium-based Map Visualization
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 ## 📈 Results
+❗ **Note on scope**
+> This project prioritized building and understanding a full 
+> distributed data pipeline (Hadoop + PySpark) over maximizing model performance. 
+> The classification model serves as a proof-of-concept for the pipeline, not a 
+> production-ready predictor.
 
 ### Model Performance
 
@@ -196,3 +201,16 @@ The final project report is available in the [`report/`](./report/) folder.
 - Hands-on experience showed that PySpark preprocessing is **heavily dependent on the execution environment**. The OOM error made clear why cloud infrastructure scalability matters in practice.
 - **Infrastructure design and environment optimization** are just as critical as code quality in data engineering workflows.
 - Model predictions alone are insufficient for final decisions — **prediction probability, spatial clustering, and real-world site context** must all be interpreted together.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+
+## 🔍 Limitations & Future Work
+
+- Model performance (ROC-AUC 0.66) was not optimized; class imbalance handling 
+  (SMOTE, class weighting) was left for future iterations
+- No quantitative estimate of expected impact (e.g. reduction in transit access 
+  gap) was conducted — this would require ridership simulation or before/after 
+  comparison with newly introduced zones
+- The pipeline is not automated; periodic re-evaluation (e.g. via Airflow) would 
+  be needed for real-world deployment
